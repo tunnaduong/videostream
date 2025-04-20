@@ -1,12 +1,14 @@
 //Create an account on Firebase, and use the credentials they give you in place of the following
-var config = {
-  apiKey: "AIzaSyBajPcoloVgJTcE44NhPLvVsqnWG9RSBEE",
-  authDomain: "simple-webrtc-video-chat.firebaseapp.com",
-  databaseURL: "https://simple-webrtc-video-chat.firebaseio.com",
-  projectId: "simple-webrtc-video-chat",
-  storageBucket: "simple-webrtc-video-chat.appspot.com",
-  messagingSenderId: "748074977719"
-};
+const config = {
+        apiKey: "AIzaSyCXq2XuAoR_Z0Cx4ZGzqoYQ56qbBZN4wxM",
+        authDomain: "stream-camera-27465.firebaseapp.com",
+        databaseURL: "https://stream-camera-27465-default-rtdb.firebaseio.com",
+        projectId: "stream-camera-27465",
+        storageBucket: "stream-camera-27465.firebasestorage.app",
+        messagingSenderId: "317939678008",
+        appId: "1:317939678008:web:1b628b1fc43822130bdfcd",
+        measurementId: "G-ENKM03MX2Q",
+      };
 firebase.initializeApp(config);
 
 var database = firebase.database().ref();
